@@ -12,8 +12,8 @@ void PrintArray(string[] printArr)
 
 string[] firstArr = { "day", "Mon", "-2", "Wednesday", "Th", "Friday", "Saturday" };
 
-int j = 0;
 string[] secondArr = new string[firstArr.Length];
+int j = 0;
 for (int i = 0; i < firstArr.Length; i++)
 {
     string temp = firstArr[i];
